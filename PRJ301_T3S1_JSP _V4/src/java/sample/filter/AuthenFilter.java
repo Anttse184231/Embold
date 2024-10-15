@@ -159,6 +159,7 @@ public class AuthenFilter implements Filter {
                 }
             }
         } catch (Exception e) {
+		logger.error("An error occurred in AuthenFilter", e);
         }
     }
 
